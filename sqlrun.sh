@@ -1,7 +1,7 @@
 #run with sudo
 docker pull postgres &&
 docker run \
-  --name pgsql-dev \
+  --name sqlserv \
   -e POSTGRES_PASSWORD=test1234 \
   -d \
   -v ${PWD}/postgres:/var/lib/postgresql/data \
